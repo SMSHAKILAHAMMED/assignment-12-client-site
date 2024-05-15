@@ -4,7 +4,7 @@ const AddBorrowedBooks = () => {
     return (
         <div className="bg-[#F4F3F0] p-24 ">
             <h2 className="text-5xl font-extrabold text-center text-black  mb-5">Add Borrowed Books</h2>
-            <p>Protect borrowed materials from rain, dampness, sun, heat, pets, and smoking and tobacco products</p>
+            <p className="text-center mb-5">Protect borrowed materials from rain, <br /> dampness, sun, heat, pets, and smoking and tobacco products</p>
             <form>
                 {/* form name and Borrowed Date  row */}
                 <div className="md:flex mb-8">
